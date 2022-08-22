@@ -147,3 +147,7 @@ function exibe_imagem(tp_pessoa) {
             
     }
 }
+
+//comandos que descobri depois
+//document.createElement
+//document.setAttribute
