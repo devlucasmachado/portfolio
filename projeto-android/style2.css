@@ -1,0 +1,227 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url(fonts/idroid.otf);
+}
+
+@font-face {
+    font-family: 'bebasNue';
+    src: url(fonts/BebasNeue.ttf);
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    box-sizing : border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:linear-gradient(to bottom, #2fa866, #063d1e);
+    padding: 40px;
+    min-height: 150px;
+}
+
+#p_hd{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    margin: auto;
+    max-width: 550px;
+    text-shadow: 1px 1px 1px black;
+}
+
+h1#h1_hd {
+    font-family: 'bebasNue', cursive;
+    font-size: 3em;
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.329);
+    font-weight: normal;
+
+}
+
+body {
+    margin: auto;
+    height: 100%;
+}
+
+#cabecalho {
+    padding-left: 15px;
+    min-height: 35px;
+    background-color: #063d1e;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu ul{
+    text-decoration: none;
+
+}
+
+.menu li{
+    position: relative;
+    float: left;
+    margin-left: 0px;
+    margin-right: 20px;
+    font-size: 1.3em;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #72cf9c;
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    background-color: #288550;
+    color: #063d1e;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+
+#principal {
+    display: block;
+    background-color: #ebe5c5;
+    height: 100%;
+    padding-bottom: 30px;
+}
+
+.conteudo {
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.459);
+    font-family: Arial, Helvetica, sans-serif;
+    outline: 0px;
+}
+
+.conteudo  h1 {
+    padding-top: 30px;
+    font-size: 2em;
+    font-family: 'idroid'; 
+    color:#1B5936;
+    margin-left: 15px;
+    font-weight: normal;
+}
+
+.conteudo > p {
+    text-indent: 15px;
+    padding: 15px;
+    text-align: justify;
+    line-height: 2;
+}
+
+.h2_main {
+    font-size: 1.5em;
+    font-family: 'idroid';
+    color:#1B5936;
+    margin-left: 15px;
+    font-weight: normal;
+    background-image: linear-gradient(to right, #84E1AD, transparent);
+}
+
+.destaque_p {
+    color:#15472b ;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.mencao{
+    background-color: #83d8a8;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px 5px 2px 5px;
+    padding-left: 5px;
+    padding-right: 10px;
+    color: #063d1e;
+}
+
+a.mencao::after {
+    content: '\00A0\1F517';
+}
+
+main img {
+    width:100%;
+    padding: 0px 20px;
+}
+
+#logo-droid {
+    max-height: 350px;
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+div.videos {
+    background-color: #063d1e;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+div.videos > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.aprender_mais {
+    background-color: #83d8a8;
+    margin: 30px 30px 10px 30px;
+    border-radius: 10px;
+    line-height: 2;
+    padding: 0px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.425);
+}
+
+.aprender_mais > h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #116435;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    text-indent: 10px;
+}
+
+.aprender_mais > p {
+    text-indent: 30px;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 10px;
+}
+
+.aprender_mais > ul {
+    display: block;
+    list-style: inside;
+    list-style-type: '\2714\00A0\00A0';
+    columns: 2;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+#ultimo_p {
+    text-indent: 30px;
+}
+
+footer {
+    font-size: 0.8em;
+    background-color: #063d1e;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}

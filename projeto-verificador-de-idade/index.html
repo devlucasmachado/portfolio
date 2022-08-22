@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de exercicio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <main>
+        <section class="formulario">
+            <label for="iano">Ano de nascimento:</label>
+            <input type="number" name="ano" id="iano" required min="1940" max="2022" maxlength="4">
+            <p>Sexo:
+                <input type="radio" name="sexo" id="isexom"><label for="isexom"> Masculino</label>
+                <input type="radio" name="sexo" id="isexof"><label for="isexof"> Feminino</label>
+            </p>
+            <input type="button" value="Verificar" id="verifica_idade">
+        </section>
+
+        <div id="mensagem">
+
+        </div>
+
+        <section class="imagens">
+            <div class="homens" >
+                <img id="h-crianca" src="images/h-crianca.png" alt="Foto de um menino">
+            </div>
+            <div class="homens" >
+                <img id="h-adolescente" src="images/h-adolescente.png" alt="Foto de um homem-adolescente">
+            </div>
+            <div class="homens" >
+                <img id="h-adulto" src="images/h-adulto.png" alt="Foto de um homem-adulto">
+            </div>
+            <div class="homens" >
+                <img id="h-idoso" src="images/h-idoso.png" alt="Foto de um homem-idoso">
+            </div>
+
+            <div class="mulheres" >
+                <img id="m-crianca" src="images/m-crianca.png" alt="Foto de um menino">
+            </div>
+            <div class="mulheres" >
+                <img id="m-adolescente" src="images/m-adolescente.png" alt="Foto de um homem-adolescente">
+            </div>
+            <div class="mulheres" >
+                <img id="m-adulta" src="images/m-adulto.png" alt="Foto de um homem-adulto">
+            </div>
+            <div class="mulheres" >
+                <img id="m-idosa" src="images/m-idosa.png" alt="Foto de um homem-idoso">
+            </div>
+        </section>
+        <p id="final">Preencha os dados para ver o resultado!</p>
+    </main>
+    <footer>
+        <p> &copy; curso em video</p>
+    </footer>
+
+    <script src="scpt.js"></script>
+</body>
+</html>
