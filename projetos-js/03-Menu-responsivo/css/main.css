@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    background-color: grey;
+}
+
+main{
+    padding-top: 10vh;
+    background-color: white;
+    width: 70vw;
+    max-width: 1000px;
+    margin: auto;
+}
+
+main h1{
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 100;
+    padding: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.507);
+}
+
+main > section.imagens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+main > section.imagens div{
+    width: 30%;
+    padding: 20px;
+}
+
+main > section.imagens img{
+    width: 100%;
+}
+

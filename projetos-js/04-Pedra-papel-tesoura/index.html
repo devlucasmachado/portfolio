@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.css">
+    <title>Pedra-Papel-Tesoura</title>
+</head>
+<body>
+    <header>
+        <h1>Jokenpô</h1>
+    </header>
+    <main>
+        <section class="tabuleiro">
+            <div class="tabuleiro-header">
+                <div class="tabuleiro-header-esquerda">
+                    <span>Você</span><br>
+                    <output id="placar-usuario">0</output>
+                </div>
+                <div class="tabuleiro-header-centro" id="thcenter">vencedor</div>
+                <div class="tabuleiro-header-direita">
+                    <span>Maquina</span><br>
+                    <output id="placar-maquina">0</output>
+                </div>
+            </div>
+            <div class="tabuleiro-acao">
+                <div class="tabuleiro-esquerdo"></div>
+                <div class="tabuleiro-centro" id="versus">Vs</div>
+                <div class="tabuleiro-direito"></div>
+            </div>
+            <div class="tabuleiro-jogadas" id="tabuleiro-jogadas">
+                <div class="botao pedra">
+                    <div class="container-jogada">
+                        <img src="images/pedra.png" alt="imagem da pedra">
+                        <legend>Pedra</legend>
+                    </div>
+                </div>
+
+                <div class="botao papel">
+                    <div class="container-jogada">
+                        <img src="images/papel.png" alt="imagem do papel">
+                        <legend>Papel</legend>
+                    </div>
+                </div>
+
+                <div class="botao tesoura">
+                    <div class="container-jogada">
+                        <img src="images/tesoura.png" alt="imagem da tesoura">
+                        <legend>Tesoura</legend>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="jogo.js"></script>
+</body>
+</html>
